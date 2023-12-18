@@ -9,7 +9,7 @@ namespace ConsoleApp1
         {
             PersonModel p1 = new PersonModel();
             Console.Write("Enter id: ");
-            Console.Write("Enter id123: ");
+            Console.Write("Enter id1234: ");
             p1.Id = Convert.ToInt32(Console.ReadLine());
             Console.Write("Enter Name: ");
             p1.Pname = Console.ReadLine();
