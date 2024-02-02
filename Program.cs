@@ -8,6 +8,7 @@ namespace ConsoleApp1
         static PersonModel ReadPerson()
         {
             PersonModel p1 = new PersonModel();
+
             Console.Write("Enter id: ");
             p1.Id = Convert.ToInt32(Console.ReadLine());
             Console.Write("Enter Name: ");
